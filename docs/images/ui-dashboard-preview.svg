@@ -1,0 +1,125 @@
+<svg width="1600" height="1040" viewBox="0 0 1600 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1490" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A2A34"/>
+      <stop offset="0.55" stop-color="#0C1721"/>
+      <stop offset="1" stop-color="#0A1018"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#111C26"/>
+      <stop offset="1" stop-color="#0B141D"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 170) rotate(90) scale(360 360)">
+      <stop stop-color="#1A97A8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#1A97A8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1420 240) rotate(90) scale(280 280)">
+      <stop stop-color="#F6A75A" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#F6A75A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="80" y="40" width="1440" height="950" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1040" fill="#09121A"/>
+  <path d="M80 96H1520V944H120L80 96Z" fill="url(#bg)"/>
+  <circle cx="180" cy="170" r="360" fill="url(#glowLeft)"/>
+  <circle cx="1420" cy="240" r="280" fill="url(#glowRight)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="126" y="82" width="1000" height="220" rx="32" fill="url(#panel)" stroke="#1F3644"/>
+    <rect x="1158" y="82" width="316" height="220" rx="30" fill="url(#panel)" stroke="#1F3644"/>
+    <rect x="126" y="370" width="338" height="510" rx="28" fill="url(#panel)" stroke="#1F3644"/>
+    <rect x="492" y="370" width="594" height="510" rx="28" fill="url(#panel)" stroke="#1F3644"/>
+    <rect x="1114" y="370" width="360" height="510" rx="28" fill="url(#panel)" stroke="#1F3644"/>
+  </g>
+
+  <text x="160" y="122" fill="#5BD6EA" font-size="18" font-family="Arial, sans-serif" letter-spacing="2">DEVELOPED BY SREYTOUCH LANG (JESSICA)</text>
+  <text x="160" y="180" fill="#F7F0E4" font-size="52" font-weight="700" font-family="Georgia, serif">AI Chatbot System</text>
+  <text x="160" y="226" fill="#AEBBC8" font-size="24" font-family="Arial, sans-serif">Document and media-aware assistant with grounded answers,</text>
+  <text x="160" y="258" fill="#AEBBC8" font-size="24" font-family="Arial, sans-serif">chat memory, source evidence, and voice or video transcription.</text>
+
+  <rect x="160" y="320" width="206" height="46" rx="23" fill="#152029" stroke="#8C6A45"/>
+  <rect x="382" y="320" width="188" height="46" rx="23" fill="#152029" stroke="#8C6A45"/>
+  <rect x="586" y="320" width="210" height="46" rx="23" fill="#152029" stroke="#8C6A45"/>
+  <text x="184" y="349" fill="#F3E6D6" font-size="20" font-family="Arial, sans-serif">Summarize a policy</text>
+  <text x="410" y="349" fill="#F3E6D6" font-size="20" font-family="Arial, sans-serif">Ask about returns</text>
+  <text x="616" y="349" fill="#F3E6D6" font-size="20" font-family="Arial, sans-serif">Ask about payments</text>
+
+  <text x="1192" y="124" fill="#57D4E8" font-size="17" font-family="Arial, sans-serif" letter-spacing="2">PROJECT</text>
+  <text x="1192" y="160" fill="#F7F0E4" font-size="21" font-weight="700" font-family="Arial, sans-serif">AI Chatbot</text>
+  <text x="1192" y="188" fill="#F7F0E4" font-size="21" font-weight="700" font-family="Arial, sans-serif">System</text>
+  <text x="1192" y="224" fill="#57D4E8" font-size="17" font-family="Arial, sans-serif" letter-spacing="2">VERSION</text>
+  <text x="1192" y="264" fill="#F7F0E4" font-size="24" font-weight="700" font-family="Arial, sans-serif">2.0.0</text>
+  <text x="1350" y="124" fill="#57D4E8" font-size="17" font-family="Arial, sans-serif" letter-spacing="2">HEALTH</text>
+  <rect x="1348" y="142" width="102" height="36" rx="18" fill="#173A31"/>
+  <text x="1371" y="166" fill="#A7F1C8" font-size="20" font-weight="700" font-family="Arial, sans-serif">Healthy</text>
+  <text x="1192" y="330" fill="#57D4E8" font-size="17" font-family="Arial, sans-serif" letter-spacing="2">REDIS</text>
+  <text x="1192" y="360" fill="#E9F0E8" font-size="22" font-family="Arial, sans-serif">ok</text>
+  <text x="1326" y="330" fill="#57D4E8" font-size="17" font-family="Arial, sans-serif" letter-spacing="2">VECTOR STORE</text>
+  <text x="1326" y="360" fill="#E9F0E8" font-size="22" font-family="Arial, sans-serif">ready (128 docs)</text>
+
+  <text x="160" y="418" fill="#57D4E8" font-size="17" font-family="Arial, sans-serif" letter-spacing="2">KNOWLEDGE INTAKE</text>
+  <text x="160" y="468" fill="#F7F0E4" font-size="40" font-family="Georgia, serif" font-weight="700">Ingest Files</text>
+  <text x="160" y="526" fill="#D5DCE4" font-size="22" font-family="Arial, sans-serif">File Name</text>
+  <rect x="160" y="544" width="270" height="60" rx="18" fill="#0E1620" stroke="#203341"/>
+  <text x="184" y="582" fill="#9AA7B4" font-size="20" font-family="Arial, sans-serif">customer-support-policy</text>
+  <text x="160" y="654" fill="#D5DCE4" font-size="22" font-family="Arial, sans-serif">File URL</text>
+  <rect x="160" y="672" width="270" height="60" rx="18" fill="#0E1620" stroke="#203341"/>
+  <text x="184" y="708" fill="#748594" font-size="18" font-family="Arial, sans-serif">example.com/customer-policy.pdf</text>
+  <text x="160" y="782" fill="#D5DCE4" font-size="22" font-family="Arial, sans-serif">Local Upload</text>
+  <rect x="160" y="800" width="270" height="60" rx="18" fill="#0E1620" stroke="#203341"/>
+  <text x="184" y="838" fill="#9AA7B4" font-size="20" font-family="Arial, sans-serif">meeting-recording.mov</text>
+  <rect x="160" y="890" width="270" height="64" rx="24" fill="#F2A556"/>
+  <text x="236" y="932" fill="#10141D" font-size="28" font-family="Arial, sans-serif" font-weight="700">Ingest File</text>
+
+  <text x="526" y="418" fill="#57D4E8" font-size="17" font-family="Arial, sans-serif" letter-spacing="2">CONVERSATION</text>
+  <text x="526" y="468" fill="#F7F0E4" font-size="37" font-family="Georgia, serif" font-weight="700">Ask the assistant</text>
+  <text x="820" y="420" fill="#D5DCE4" font-size="18" font-family="Arial, sans-serif">User ID</text>
+  <rect x="820" y="432" width="142" height="46" rx="14" fill="#0E1620" stroke="#203341"/>
+  <text x="845" y="461" fill="#EFF4F8" font-size="20" font-family="Arial, sans-serif">client-demo</text>
+  <text x="978" y="420" fill="#D5DCE4" font-size="18" font-family="Arial, sans-serif">Top K</text>
+  <rect x="978" y="432" width="74" height="46" rx="14" fill="#0E1620" stroke="#203341"/>
+  <text x="1004" y="461" fill="#EFF4F8" font-size="20" font-family="Arial, sans-serif">3</text>
+
+  <rect x="526" y="510" width="526" height="124" rx="20" fill="#232627" stroke="#424748"/>
+  <text x="552" y="540" fill="#BFC6CC" font-size="18" font-family="Arial, sans-serif" letter-spacing="1">ASSISTANT</text>
+  <text x="596" y="578" fill="#F6F7F8" font-size="19" font-family="Arial, sans-serif">Upload a document, voice note, or video.</text>
+  <text x="596" y="604" fill="#F6F7F8" font-size="19" font-family="Arial, sans-serif">Answers stay grounded in retrieved</text>
+  <text x="596" y="630" fill="#F6F7F8" font-size="19" font-family="Arial, sans-serif">source context.</text>
+
+  <rect x="680" y="654" width="372" height="104" rx="22" fill="#121B24" stroke="#203341"/>
+  <text x="706" y="678" fill="#BFC6CC" font-size="18" font-family="Arial, sans-serif" letter-spacing="1">YOU</text>
+  <text x="706" y="714" fill="#EFF3F6" font-size="19" font-family="Arial, sans-serif">What are the refund terms and</text>
+  <text x="706" y="740" fill="#EFF3F6" font-size="19" font-family="Arial, sans-serif">payment conditions in the</text>
+  <text x="706" y="766" fill="#EFF3F6" font-size="19" font-family="Arial, sans-serif">uploaded files?</text>
+
+  <rect x="526" y="778" width="526" height="126" rx="22" fill="#1A232C" stroke="#203341"/>
+  <text x="552" y="808" fill="#BFC6CC" font-size="18" font-family="Arial, sans-serif" letter-spacing="1">ASSISTANT</text>
+  <text x="552" y="844" fill="#EFF3F6" font-size="18" font-family="Arial, sans-serif">Refunds are allowed within 14 days</text>
+  <text x="552" y="868" fill="#EFF3F6" font-size="18" font-family="Arial, sans-serif">with a valid receipt. Invoices are due</text>
+  <text x="552" y="892" fill="#EFF3F6" font-size="18" font-family="Arial, sans-serif">within 30 days unless custom terms apply.</text>
+
+  <text x="1148" y="418" fill="#57D4E8" font-size="17" font-family="Arial, sans-serif" letter-spacing="2">EVIDENCE</text>
+  <text x="1148" y="462" fill="#F7F0E4" font-size="34" font-family="Georgia, serif" font-weight="700">Source</text>
+  <text x="1148" y="500" fill="#F7F0E4" font-size="34" font-family="Georgia, serif" font-weight="700">Context</text>
+  <rect x="1148" y="510" width="292" height="116" rx="22" fill="#16212B" stroke="#203341"/>
+  <text x="1172" y="538" fill="#57D4E8" font-size="15" font-family="Arial, sans-serif" letter-spacing="1">CONVERSATION SUMMARY</text>
+  <text x="1172" y="574" fill="#ECF1F4" font-size="17" font-family="Arial, sans-serif">User is reviewing refunds and payment timing</text>
+  <text x="1172" y="598" fill="#ECF1F4" font-size="17" font-family="Arial, sans-serif">from a policy document and a meeting transcript.</text>
+
+  <rect x="1148" y="648" width="292" height="114" rx="22" fill="#121B24" stroke="#203341"/>
+  <text x="1172" y="676" fill="#C4CCD2" font-size="14" font-family="Arial, sans-serif">SOURCE 1  -  PAGE 4</text>
+  <text x="1172" y="706" fill="#F6F7F8" font-size="18" font-family="Arial, sans-serif">customer-support-policy.pdf</text>
+  <text x="1172" y="734" fill="#D7DFE6" font-size="15" font-family="Arial, sans-serif">Refunds may be requested within 14 days</text>
+  <text x="1172" y="756" fill="#D7DFE6" font-size="15" font-family="Arial, sans-serif">when the original receipt and account</text>
+  <text x="1172" y="778" fill="#D7DFE6" font-size="15" font-family="Arial, sans-serif">details are provided.</text>
+
+  <rect x="1148" y="780" width="292" height="116" rx="22" fill="#121B24" stroke="#203341"/>
+  <text x="1172" y="808" fill="#C4CCD2" font-size="14" font-family="Arial, sans-serif">SOURCE 2  -  TRANSCRIPT</text>
+  <text x="1172" y="838" fill="#F6F7F8" font-size="18" font-family="Arial, sans-serif">meeting-recording.mov</text>
+  <text x="1172" y="866" fill="#D7DFE6" font-size="15" font-family="Arial, sans-serif">Finance confirmed invoices should be paid</text>
+  <text x="1172" y="888" fill="#D7DFE6" font-size="15" font-family="Arial, sans-serif">within 30 days unless enterprise terms</text>
+  <text x="1172" y="910" fill="#D7DFE6" font-size="15" font-family="Arial, sans-serif">are approved.</text>
+</svg>
